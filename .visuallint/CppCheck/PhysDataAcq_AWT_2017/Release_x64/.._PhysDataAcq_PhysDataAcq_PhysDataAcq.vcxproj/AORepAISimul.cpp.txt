@@ -1,0 +1,4 @@
+(information) Couldn't find path given by -I 'C:\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include\'
+(information) Couldn't find path given by -I '$(UEIDAQROOT)\CPP\include\'
+(information) Couldn't find path given by -I 'D:\Scripts\PhysDataAcqScripts\Visual Studio Projects\PhysDataAcq_FlickerMotion\PhysDataAcq_FlickerMotion -IC:\Program\'
+cppcheck: error: could not find or open any of the paths given.

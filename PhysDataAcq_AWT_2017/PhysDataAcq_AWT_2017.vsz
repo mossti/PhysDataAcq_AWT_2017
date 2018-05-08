@@ -1,0 +1,6 @@
+VSWIZARD 7.0
+Wizard=VsWizard.VsWizardEngine.7.1
+
+Param="WIZARD_NAME = PhysDataAcq_AWT_2017"
+Param="ABSOLUTE_PATH = C:\Documents and Settings\LED\My Documents\Visual Studio Projects\PhysDataAcq_AWT_2017\PhysDataAcq_AWT_2017"
+Param="FALLBACK_LCID = 1033"

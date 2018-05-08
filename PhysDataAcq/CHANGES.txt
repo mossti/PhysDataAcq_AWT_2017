@@ -1,0 +1,19 @@
+Date: 08/30/2013 
+Created a new Interpolation2.cpp file and added it to the source files. 
+In this file, the entire interpolation part of the script has been removed. 
+Random numbers are generated (from rand()) and converted into voltage for the range [0, 0.7]. 
+This is done to create a flickering stimulus where each pixel randomly, independent of other pixels, change its intensity. 
+The seed for rand() is set to 0 at the start of the experiment. 
+
+The integer random numbers between [0,32767*2] are written into an output file in hard disc on fly. 
+This part is executed in the Interpolation2.cpp file. 
+
+New header file added "Interpolation2.h".
+"Interpolation2.h" included in "AO_TimeStamp_RTInterp.cpp" file.
+"Interpolation2.h" included in "Interpolation2.cpp" file.
+"Interpolation.h" is excluded from build.
+"Interpolation.cpp" is excluded from build.
+-----------------------------------------------------------------------------------------------
+Date: 09/25/2013
+The "Interpolation2.cpp" file is modified to generate stimulus from a stream of random numbers set with a prior user-defined seed. Another file "ArrayIndexRelocate.cpp" is added to the source files. This determines the new pixel locations in terms of the old pixel locations. The header files corresponding to the source files are also included in the build. The stimulus represents a constant velocity (delta correlated images) masked by noise [ref. de Ruyter et.al NEC Symp.1994]. The random number generator engine is set to the default rand() engine of visual studio (RAND_MAX=2^16-1). 
+Parameters added to the "AO_TimeStamp_RTInterp.cpp" file
